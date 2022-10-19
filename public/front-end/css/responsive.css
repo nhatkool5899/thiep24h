@@ -1,0 +1,8 @@
+@media (min-width: 1200px) {
+    .header_top-main{
+        /* max-width: 1100px; */
+    }
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        /* max-width: 1230px; */
+    }
+}

@@ -187,6 +187,42 @@
        </div>
    </div>
 
+   <div class="clearfix"></div>
+    <!-- Giáng sinh -->
+    <div class="box_news container">
+       <div class="pd-title">
+           <img src="{{asset('front-end/imgs/icon-5.jpg')}}" alt="">
+           <div style="margin-top: 20px;">
+               <h3>Mẫu thiệp giáng sinh</h3>
+               <p>Một số dòng thiệp bán chạy nhất thị trương hiện nay</p>
+           </div>
+       </div>
+
+       <div class="pd-news-carousel">
+            @foreach ($thiep_noel as $item)
+            <!-- Item-carousel -->
+
+            <div class="pd-carousel-item">
+                <a href="{{url('details-pd/'.$item->maso)}}" class="image pd-item-links">
+                    <p class="scale-item">
+                        <img src="{{asset('uploads/'.$item->danhmuc->tendanhmuc.'/'.$item->hinhanh)}}" alt="{{$item->hinhanh}}">
+                    </p>
+                </a>
+                <div class="name">
+                    {{$item->maso}}
+                </div>
+                <div class="price">{{ number_format($item->gia,0,',','.') }}đ</div>
+            </div>
+
+            @endforeach
+
+       </div>
+
+       <div class="box-view-all">
+           <span class="btn-view-all">Xem tất cả</span>
+       </div>
+   </div>
+
     <div class="clearfix"></div>
     <div class="product-main">
         <div class="container">

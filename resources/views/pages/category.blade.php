@@ -11,7 +11,7 @@
 <!-- Ngày lễ -->
 <div class="container">
     <div class="category-pd">
-        <h3 class="cate-title">Mẫu thiệp ngày lễ</h3>
+        <h3 class="cate-title">Mẫu {{$cate->tendanhmuc}}</h3>
 
         <div class="cate-body">
 

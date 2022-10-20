@@ -156,11 +156,11 @@
                                     </li> 
                                     <li class="menu__line"></li>
                                     <li class="nav-menu-item">
-                                        <a class="menu__link " href="khuyen-mai" title="Khuyến mãi">Khuyến mãi</a>
+                                        <a class="menu__link " href="khuyen-mai" title="Khuyến mãi">In ấn</a>
                                     </li> 
                                     <li class="menu__line"></li>
                                     <li class="nav-menu-item">
-                                        <a class="menu__link " href="thu-vien-anh" title="Album">Album</a>
+                                        <a class="menu__link " href="thu-vien-anh" title="Album">Tuyển dụng</a>
                                     </li>
                                     <li class="menu__line"></li>
                                     <li class="nav-menu-item">
